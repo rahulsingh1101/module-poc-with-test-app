@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Delete_post_use" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ViewController" storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Delete_post_use" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,6 +121,40 @@
             </objects>
             <point key="canvasLocation" x="1891" y="4"/>
         </scene>
+        <!--Landing View Controller-->
+        <scene sceneID="Swg-rn-cCl">
+            <objects>
+                <viewController restorationIdentifier="LandingViewController" storyboardIdentifier="LandingViewController" id="jMt-A8-PxO" customClass="LandingViewController" customModule="Delete_post_use" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p79-eG-iao">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iXT-dv-Wxj">
+                                <rect key="frame" x="10" y="127.99999999999999" width="373" height="255.66666666666663"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9hq-2I-LPV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iXT-dv-Wxj" firstAttribute="top" secondItem="9hq-2I-LPV" secondAttribute="top" constant="10" id="HzV-zt-q1U"/>
+                            <constraint firstItem="iXT-dv-Wxj" firstAttribute="height" secondItem="p79-eG-iao" secondAttribute="height" multiplier="0.3" id="UDJ-TQ-87h"/>
+                            <constraint firstItem="9hq-2I-LPV" firstAttribute="trailing" secondItem="iXT-dv-Wxj" secondAttribute="trailing" constant="10" id="hPM-Tm-lKv"/>
+                            <constraint firstItem="iXT-dv-Wxj" firstAttribute="leading" secondItem="9hq-2I-LPV" secondAttribute="leading" constant="10" id="lJm-iQ-Qxi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="infoView" destination="iXT-dv-Wxj" id="MFG-ag-dUB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pmh-kb-fje" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2677" y="4"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="fW7-mC-oZI">
             <objects>
@@ -141,6 +175,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

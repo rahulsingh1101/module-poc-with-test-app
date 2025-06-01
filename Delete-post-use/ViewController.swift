@@ -10,11 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    private var viewModel: UserViewModelProtocol!
+    private var viewModel: LoginViewModelProtocol!
+    var onLoginSuccess: (() -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = UserViewModel()
+        viewModel = LoginViewModel(apiService: APIService())
         
         emailTextField.text = "rks@gmail.com"
         passwordTextField.text = "1234"
@@ -22,8 +23,12 @@ class ViewController: UIViewController {
     
     @IBAction func submitAction(_ sender: UIButton) {
         viewModel.loginUser(user: .init(email: emailTextField.text ?? "rkssingh566@gmail.com",
-                                        password: passwordTextField.text ?? "0987667890")) { status in
+                                        password: passwordTextField.text ?? "0987667890")) {[weak self] status in
+            guard let self else { return }
             print("debug :: login status ::\(status)")
+            if status {
+                onLoginSuccess?()
+            }
         }
     }
     
@@ -31,11 +36,5 @@ class ViewController: UIViewController {
         NavigationHelper.navigate(to: RegisterUserController.self, from: self, identifier: RegisterUserController.className) { modal in
             print("debug :: the returned modal is ::\(modal)")
         }
-    }
-}
-
-extension NSObject {
-    class var className: String {
-        return String(describing: self)
     }
 }

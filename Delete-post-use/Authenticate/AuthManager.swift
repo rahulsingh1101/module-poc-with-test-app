@@ -16,11 +16,11 @@ protocol AuthManagerProtocol {
 }
 
 final class AuthManager: AuthManagerProtocol {
-    init(tokenKey: String) {
+    init(tokenKey: String = "auth_token") {
         self.tokenKey = tokenKey
     }
     
-    private var tokenKey = "auth_token"
+    private let tokenKey: String
 
     func saveToken(_ token: String) {
         let data = Data(token.utf8)

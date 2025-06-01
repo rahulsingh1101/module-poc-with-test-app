@@ -8,29 +8,38 @@
 import Foundation
 
 protocol RegisterViewModelProtocol {
-    func register(user: CreateUserRequest, completion:@escaping(User?)->Void)
+    // After registration completes, completion will return the created user or some error
+    func register(user: CreateUserRequest, completion:@escaping(Result<(success: CreateUserResponse?, failure: RegistrationError?), UserRegistrationError>)->Void)
+    init(apiService: APIServiceProtocol)
 }
 
 final class RegisterViewModel: RegisterViewModelProtocol {
-    func register(user: CreateUserRequest, completion: @escaping (User?) -> Void) {
-        NetworkManager.shared.request(url: URL(string: create_user)!,
-                                      method: .POST,
-                                      body: BJSONEncoder<CreateUserRequest>().encode(user),
-                                      headers: ["Content-Type": "application/json"],
-                                      responseType: User.self) { result in
-            switch result {
-            case .success(let success):
-                print("debug :: user created success ::\(success)")
-                DispatchQueue.main.async {
-                    completion(success)
-                }
-            case .failure(let failure):
-                print("debug :: failed ::\(failure)")
-                DispatchQueue.main.async {
-                    completion(nil)
-                }
+    private let apiService: APIServiceProtocol
+    
+    init(apiService: APIServiceProtocol) {
+        self.apiService = apiService
+    }
+    
+    func register(user: CreateUserRequest, completion: @escaping (Result<(success: CreateUserResponse?, failure: RegistrationError?), UserRegistrationError>) -> Void) {
+        
+        apiService.request(
+            url: create_user,
+            method: .POST,
+            body: user,
+            headers: nil,
+            success: { (response: CreateUserResponse) in
+                print("✅ CreateUserResponse: \(response)")
+                completion(.success((response, nil)))
+            },
+            failure: { (error: RegistrationError) in
+                print("❌ RegistrationError: \(error)")
+                completion(.success((nil, error)))
+            },
+            decodingFailed: { error in
+                print("💥 Decoding/Network Error: \(error)")
+                completion(.failure(.unknown))
             }
-        }
+        )
     }
     
     

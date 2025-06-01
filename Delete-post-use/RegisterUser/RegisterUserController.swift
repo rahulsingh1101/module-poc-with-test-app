@@ -7,11 +7,9 @@
 
 import UIKit
 
-//typealias CompletionHandler = () -> Void
-
 final class RegisterUserController: UIViewController, Transferable {
-    var onCompletion: ((User) -> Void)?
-    typealias ModelType = User
+    var onCompletion: ((CreateUserResponse) -> Void)?
+    typealias ModelType = CreateUserResponse
     
     @IBOutlet weak var userNameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
@@ -21,14 +19,27 @@ final class RegisterUserController: UIViewController, Transferable {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-        viewModel = RegisterViewModel()
+        viewModel = RegisterViewModel(apiService: APIService())
     }
     
     @IBAction func submitAction(_ sender: UIButton) {
-        viewModel.register(user: .init(username: userNameField.text ?? "", email: emailField.text ?? "", password: passwordField.text ?? "")) { status in
-            if let status {
-                self.onCompletion?(status)
-                self.navigationController?.popViewController(animated: true)
+        viewModel.register(user: CreateUserRequest(
+            username: userNameField.text ?? "",
+            email: emailField.text ?? "",
+            password: passwordField.text ?? ""
+        )) { result in
+            switch result {
+            case .success(let user):
+                if let value = user.success {
+                    self.onCompletion?(value)
+                    self.navigationController?.popViewController(animated: true)
+                } else if let value = user.failure {
+                    print("debug :: user controller error :: \(value)")
+                } else {
+                    fatalError("This is wrong")
+                }
+            case .failure(let failure):
+                print("debug :: user controller failure :: \(failure)")
             }
         }
     }

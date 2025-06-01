@@ -35,7 +35,7 @@ class NavigationHelper {
         }
         
         if let destinationVC = destinationVC as? (any Transferable) {
-            configureCompletion(for: destinationVC) { modal in
+            configureCallback(for: destinationVC) { modal in
                 handler?(modal)
             }
         }
@@ -53,7 +53,8 @@ class NavigationHelper {
         }
     }
     
-    private class func configureCompletion<T: Transferable>(for controller: T, with handler: @escaping (T.ModelType) -> Void) {
+    // This method is added because Transferable type is using associatedValue which need to be defined later while implementing the protocol
+    private class func configureCallback<T: Transferable>(for controller: T, with handler: @escaping (T.ModelType) -> Void) {
         controller.onCompletion = handler
     }
 
