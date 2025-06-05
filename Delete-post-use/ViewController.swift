@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     @IBAction func createUserAction(_ sender: UIButton) {
         NavigationHelper.navigate(to: RegisterUserController.self, from: self, identifier: RegisterUserController.className) { modal in
             print("debug :: the returned modal is ::\(modal)")
+            self.emailTextField.text = (modal as? CreateUserResponse)?.email
         }
     }
 }
