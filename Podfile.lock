@@ -1,16 +1,16 @@
 PODS:
-  - NetworkModule (0.1.0)
+  - NetworkModule (0.2.0)
 
 DEPENDENCIES:
-  - NetworkModule (from `./NetworkModule`)
+  - NetworkModule (~> 0.2.0)
 
-EXTERNAL SOURCES:
-  NetworkModule:
-    :path: "./NetworkModule"
+SPEC REPOS:
+  https://github.com/rahulsingh1101/private-cocoapods-specs.git:
+    - NetworkModule
 
 SPEC CHECKSUMS:
-  NetworkModule: 1066527016a39816622776c464f899fb17f80a83
+  NetworkModule: 88ccf64544f50d299471baa9eaa7f50e09907c21
 
-PODFILE CHECKSUM: afe87e62bed227bbbb1b72d967a56c33db28db62
+PODFILE CHECKSUM: fcca86252829240af3f4f23b0219ed6151965e38
 
 COCOAPODS: 1.16.2
