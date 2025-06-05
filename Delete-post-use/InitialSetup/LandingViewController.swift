@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import NetworkModule
 
 final class LandingViewController: UIViewController {
     @IBOutlet weak var infoView: UITextView!
     var onLogout: (()->Void)?
     var user: User?
-    private let viewModel: LandingViewModelProtocol = LandingViewModel(apiService: APIService())
+    private let viewModel: LandingViewModelProtocol = LandingViewModel(apiService: NetworkFactory.makeService())
     
     override func viewDidLoad() {
         super.viewDidLoad()

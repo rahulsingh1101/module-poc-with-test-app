@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import NetworkModule
 
 protocol LandingViewModelProtocol {
     init(apiService: APIServiceProtocol)

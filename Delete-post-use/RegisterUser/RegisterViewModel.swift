@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import NetworkModule
 
 protocol RegisterViewModelProtocol {
     // After registration completes, completion will return the created user or some error

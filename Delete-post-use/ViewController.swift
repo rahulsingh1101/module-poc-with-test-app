@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NetworkModule
 
 class ViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
@@ -15,7 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = LoginViewModel(apiService: APIService())
+        viewModel = LoginViewModel(apiService: NetworkFactory.makeService())
         
         emailTextField.text = "rks@gmail.com"
         passwordTextField.text = "1234"

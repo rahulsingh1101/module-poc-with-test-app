@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NetworkModule
 
 final class RegisterUserController: UIViewController, Transferable {
     var onCompletion: ((CreateUserResponse) -> Void)?
@@ -19,7 +20,7 @@ final class RegisterUserController: UIViewController, Transferable {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-        viewModel = RegisterViewModel(apiService: APIService())
+        viewModel = RegisterViewModel(apiService: NetworkFactory.makeService())
     }
     
     @IBAction func submitAction(_ sender: UIButton) {
