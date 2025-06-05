@@ -15,7 +15,7 @@ target 'Delete-post-use' do
   # Pods for Delete-post-use
 #  pod 'NetworkModule', :git => 'https://github.com/rahulsingh1101/NetworkModule.git', :tag => '0.2.0'
 #  pod 'NetworkModule', :path => './NetworkModule'  # Adjust path as needed
-  pod 'NetworkModule', '~> 0.2.0'
+  pod 'NetworkModule', '~> 0.3.0'
 #  pod 'NetworkModule', :git => 'https://github.com/rahulsingh1101/NetworkModule.git', :branch => 'main'
 
 

@@ -1,16 +1,16 @@
 PODS:
-  - NetworkModule (0.2.0)
+  - NetworkModule (0.3.0)
 
 DEPENDENCIES:
-  - NetworkModule (~> 0.2.0)
+  - NetworkModule (~> 0.3.0)
 
 SPEC REPOS:
   https://github.com/rahulsingh1101/private-cocoapods-specs.git:
     - NetworkModule
 
 SPEC CHECKSUMS:
-  NetworkModule: 88ccf64544f50d299471baa9eaa7f50e09907c21
+  NetworkModule: 37874de2a3b2a6407d4e3050e6589dd1eef7fe8e
 
-PODFILE CHECKSUM: fcca86252829240af3f4f23b0219ed6151965e38
+PODFILE CHECKSUM: 2bd903cfb2e6d683e7663cb25e21813088e4bcb5
 
 COCOAPODS: 1.16.2
