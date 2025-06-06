@@ -13,11 +13,13 @@ target 'Delete-post-use' do
   use_frameworks!
 
   # Pods for Delete-post-use
-#  pod 'NetworkModule', :git => 'https://github.com/rahulsingh1101/NetworkModule.git', :tag => '0.2.0'
-#  pod 'NetworkModule', :path => './Modules/NetworkModule'
-  pod 'NetworkModule', '~> 0.3.0'
-#  pod 'NetworkModule', :git => 'https://github.com/rahulsingh1101/NetworkModule.git', :branch => 'main'
+  #  pod 'NetworkModule', :git => 'https://github.com/rahulsingh1101/NetworkModule.git', :tag => '0.2.0'
+  #  pod 'NetworkModule', :git => 'https://github.com/rahulsingh1101/NetworkModule.git', :branch => 'main'
+  #  pod 'NetworkModule', :path => './Modules/NetworkModule'
 
+  pod 'ASKFoundation', '~> 0.1.0'
+  pod 'ASKUIKit', '~> 0.1.0'
+  pod 'NetworkModule', '~> 0.3.0'
 
   target 'Delete-post-useTests' do
     inherit! :search_paths

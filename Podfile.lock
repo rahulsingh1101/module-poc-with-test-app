@@ -1,16 +1,24 @@
 PODS:
+  - ASKFoundation (0.1.0)
+  - ASKUIKit (0.1.0)
   - NetworkModule (0.3.0)
 
 DEPENDENCIES:
+  - ASKFoundation (~> 0.1.0)
+  - ASKUIKit (~> 0.1.0)
   - NetworkModule (~> 0.3.0)
 
 SPEC REPOS:
   https://github.com/rahulsingh1101/private-cocoapods-specs.git:
+    - ASKFoundation
+    - ASKUIKit
     - NetworkModule
 
 SPEC CHECKSUMS:
+  ASKFoundation: 9b60eeb3b5b30c26f12f4680ade08498dacfe8a6
+  ASKUIKit: aacf53d8c504d35ece74f2b95fb6d8865118c645
   NetworkModule: 37874de2a3b2a6407d4e3050e6589dd1eef7fe8e
 
-PODFILE CHECKSUM: 115c1e35e79ca9116f3827e6d7cacb8be9981843
+PODFILE CHECKSUM: fcceb487ebca8f6e579e6964e852b306cc5fbd9c
 
 COCOAPODS: 1.16.2
