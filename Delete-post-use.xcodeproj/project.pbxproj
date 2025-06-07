@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9784FF8EC590F6BD33ABD649 /* Pods_Delete_post_use_Delete_post_useUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E673299925A775594CBA51F1 /* Pods_Delete_post_use_Delete_post_useUITests.framework */; };
-		E0858EA6B51A7DD129647AD2 /* Pods_Delete_post_useTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDEFF2735FD6BF9264C1E8 /* Pods_Delete_post_useTests.framework */; };
-		F32F0989B3583797D45B886C /* Pods_Delete_post_use.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B816D04AC3A55003EBC33A /* Pods_Delete_post_use.framework */; };
+		01F0C5A365F149CCB818A3C3 /* Pods_Delete_post_use.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA8052E00E6814272C5F60B /* Pods_Delete_post_use.framework */; };
+		162101C0A4281F5C8A5716C2 /* Pods_Delete_post_use_Delete_post_useUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF34A94CC42B87434F01341B /* Pods_Delete_post_use_Delete_post_useUITests.framework */; };
+		E25B6120BF79580D447A0809 /* Pods_Delete_post_useTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C14C34A5F0DA1639FF62A77 /* Pods_Delete_post_useTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,18 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA8052E00E6814272C5F60B /* Pods_Delete_post_use.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delete_post_use.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F39DA592DEAEC61003309BF /* Delete-post-use.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delete-post-use.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F39DA722DEAEC63003309BF /* Delete-post-useTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delete-post-useTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F39DA7C2DEAEC63003309BF /* Delete-post-useUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delete-post-useUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		822AD7EFB3D17170057A86C0 /* Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig"; path = "Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig"; sourceTree = "<group>"; };
-		90D6A14AF57C07A50F128600 /* Pods-Delete-post-use.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use.release.xcconfig"; path = "Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use.release.xcconfig"; sourceTree = "<group>"; };
-		AA66C5AFBA6AB57BE7FE7CD5 /* Pods-Delete-post-use.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use.debug.xcconfig"; path = "Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use.debug.xcconfig"; sourceTree = "<group>"; };
-		B74F0ED249B9193D3A279720 /* Pods-Delete-post-useTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-useTests.debug.xcconfig"; path = "Target Support Files/Pods-Delete-post-useTests/Pods-Delete-post-useTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B86C1489E655F814D94938B2 /* Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6B816D04AC3A55003EBC33A /* Pods_Delete_post_use.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delete_post_use.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCBDEFF2735FD6BF9264C1E8 /* Pods_Delete_post_useTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delete_post_useTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E673299925A775594CBA51F1 /* Pods_Delete_post_use_Delete_post_useUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delete_post_use_Delete_post_useUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F178FBF1865AAF9BE2A0E09E /* Pods-Delete-post-useTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-useTests.release.xcconfig"; path = "Target Support Files/Pods-Delete-post-useTests/Pods-Delete-post-useTests.release.xcconfig"; sourceTree = "<group>"; };
+		32C59327B2DD393731743673 /* Pods-Delete-post-useTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-useTests.debug.xcconfig"; path = "Target Support Files/Pods-Delete-post-useTests/Pods-Delete-post-useTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C14C34A5F0DA1639FF62A77 /* Pods_Delete_post_useTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delete_post_useTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5014669E6FE6E1CCFB278D76 /* Pods-Delete-post-useTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-useTests.release.xcconfig"; path = "Target Support Files/Pods-Delete-post-useTests/Pods-Delete-post-useTests.release.xcconfig"; sourceTree = "<group>"; };
+		98B755E582A7BD3BC29E13C1 /* Pods-Delete-post-use.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use.release.xcconfig"; path = "Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use.release.xcconfig"; sourceTree = "<group>"; };
+		C28C0BA02E72004CA976BD4C /* Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig"; path = "Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C790D13CAF11D63EC5D4E6ED /* Pods-Delete-post-use.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use.debug.xcconfig"; path = "Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use.debug.xcconfig"; sourceTree = "<group>"; };
+		D01BF0497A8CA065657CAA73 /* Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF34A94CC42B87434F01341B /* Pods_Delete_post_use_Delete_post_useUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delete_post_use_Delete_post_useUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F32F0989B3583797D45B886C /* Pods_Delete_post_use.framework in Frameworks */,
+				01F0C5A365F149CCB818A3C3 /* Pods_Delete_post_use.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0858EA6B51A7DD129647AD2 /* Pods_Delete_post_useTests.framework in Frameworks */,
+				E25B6120BF79580D447A0809 /* Pods_Delete_post_useTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9784FF8EC590F6BD33ABD649 /* Pods_Delete_post_use_Delete_post_useUITests.framework in Frameworks */,
+				162101C0A4281F5C8A5716C2 /* Pods_Delete_post_use_Delete_post_useUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +110,12 @@
 		0103E15E702AB26ACE64A23C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AA66C5AFBA6AB57BE7FE7CD5 /* Pods-Delete-post-use.debug.xcconfig */,
-				90D6A14AF57C07A50F128600 /* Pods-Delete-post-use.release.xcconfig */,
-				B86C1489E655F814D94938B2 /* Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig */,
-				822AD7EFB3D17170057A86C0 /* Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig */,
-				B74F0ED249B9193D3A279720 /* Pods-Delete-post-useTests.debug.xcconfig */,
-				F178FBF1865AAF9BE2A0E09E /* Pods-Delete-post-useTests.release.xcconfig */,
+				C790D13CAF11D63EC5D4E6ED /* Pods-Delete-post-use.debug.xcconfig */,
+				98B755E582A7BD3BC29E13C1 /* Pods-Delete-post-use.release.xcconfig */,
+				D01BF0497A8CA065657CAA73 /* Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig */,
+				C28C0BA02E72004CA976BD4C /* Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig */,
+				32C59327B2DD393731743673 /* Pods-Delete-post-useTests.debug.xcconfig */,
+				5014669E6FE6E1CCFB278D76 /* Pods-Delete-post-useTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 				1F39DA7F2DEAEC63003309BF /* Delete-post-useUITests */,
 				1F39DA5A2DEAEC61003309BF /* Products */,
 				0103E15E702AB26ACE64A23C /* Pods */,
-				F22254F905FB7263849FDA43 /* Frameworks */,
+				E79BE24E8505AD5E8429C422 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,12 +142,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F22254F905FB7263849FDA43 /* Frameworks */ = {
+		E79BE24E8505AD5E8429C422 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6B816D04AC3A55003EBC33A /* Pods_Delete_post_use.framework */,
-				E673299925A775594CBA51F1 /* Pods_Delete_post_use_Delete_post_useUITests.framework */,
-				DCBDEFF2735FD6BF9264C1E8 /* Pods_Delete_post_useTests.framework */,
+				0FA8052E00E6814272C5F60B /* Pods_Delete_post_use.framework */,
+				FF34A94CC42B87434F01341B /* Pods_Delete_post_use_Delete_post_useUITests.framework */,
+				3C14C34A5F0DA1639FF62A77 /* Pods_Delete_post_useTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,11 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F39DA852DEAEC63003309BF /* Build configuration list for PBXNativeTarget "Delete-post-use" */;
 			buildPhases = (
-				ADFA1D8E827E535917AF24E7 /* [CP] Check Pods Manifest.lock */,
+				46877C6A9EBD8FEDBCD67C4B /* [CP] Check Pods Manifest.lock */,
 				1F39DA552DEAEC61003309BF /* Sources */,
 				1F39DA562DEAEC61003309BF /* Frameworks */,
 				1F39DA572DEAEC61003309BF /* Resources */,
-				103BAD6A270A695378C26B64 /* [CP] Embed Pods Frameworks */,
+				AF437E0C277088AFAB42B425 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,7 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F39DA8A2DEAEC63003309BF /* Build configuration list for PBXNativeTarget "Delete-post-useTests" */;
 			buildPhases = (
-				9ED551D85CE4715231283596 /* [CP] Check Pods Manifest.lock */,
+				A6B099069BB3D490BE234A9F /* [CP] Check Pods Manifest.lock */,
 				1F39DA6E2DEAEC63003309BF /* Sources */,
 				1F39DA6F2DEAEC63003309BF /* Frameworks */,
 				1F39DA702DEAEC63003309BF /* Resources */,
@@ -203,11 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F39DA8D2DEAEC63003309BF /* Build configuration list for PBXNativeTarget "Delete-post-useUITests" */;
 			buildPhases = (
-				78DAA5D71D6EE769E50C1EAB /* [CP] Check Pods Manifest.lock */,
+				CFA39918BED2393656E0B7AC /* [CP] Check Pods Manifest.lock */,
 				1F39DA782DEAEC63003309BF /* Sources */,
 				1F39DA792DEAEC63003309BF /* Frameworks */,
 				1F39DA7A2DEAEC63003309BF /* Resources */,
-				4DCB3243D425F653013FD8F4 /* [CP] Embed Pods Frameworks */,
+				AEB1EA6845500F0DBA2D8440 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,41 +291,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		103BAD6A270A695378C26B64 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4DCB3243D425F653013FD8F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78DAA5D71D6EE769E50C1EAB /* [CP] Check Pods Manifest.lock */ = {
+		46877C6A9EBD8FEDBCD67C4B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,14 +306,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Delete-post-use-Delete-post-useUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Delete-post-use-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9ED551D85CE4715231283596 /* [CP] Check Pods Manifest.lock */ = {
+		A6B099069BB3D490BE234A9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,7 +335,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADFA1D8E827E535917AF24E7 /* [CP] Check Pods Manifest.lock */ = {
+		AEB1EA6845500F0DBA2D8440 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use-Delete-post-useUITests/Pods-Delete-post-use-Delete-post-useUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF437E0C277088AFAB42B425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delete-post-use/Pods-Delete-post-use-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA39918BED2393656E0B7AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,7 +384,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Delete-post-use-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Delete-post-use-Delete-post-useUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,7 +433,7 @@
 /* Begin XCBuildConfiguration section */
 		1F39DA862DEAEC63003309BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA66C5AFBA6AB57BE7FE7CD5 /* Pods-Delete-post-use.debug.xcconfig */;
+			baseConfigurationReference = C790D13CAF11D63EC5D4E6ED /* Pods-Delete-post-use.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +462,7 @@
 		};
 		1F39DA872DEAEC63003309BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90D6A14AF57C07A50F128600 /* Pods-Delete-post-use.release.xcconfig */;
+			baseConfigurationReference = 98B755E582A7BD3BC29E13C1 /* Pods-Delete-post-use.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -612,7 +612,7 @@
 		};
 		1F39DA8B2DEAEC63003309BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B74F0ED249B9193D3A279720 /* Pods-Delete-post-useTests.debug.xcconfig */;
+			baseConfigurationReference = 32C59327B2DD393731743673 /* Pods-Delete-post-useTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -632,7 +632,7 @@
 		};
 		1F39DA8C2DEAEC63003309BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F178FBF1865AAF9BE2A0E09E /* Pods-Delete-post-useTests.release.xcconfig */;
+			baseConfigurationReference = 5014669E6FE6E1CCFB278D76 /* Pods-Delete-post-useTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -652,7 +652,7 @@
 		};
 		1F39DA8E2DEAEC63003309BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B86C1489E655F814D94938B2 /* Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig */;
+			baseConfigurationReference = D01BF0497A8CA065657CAA73 /* Pods-Delete-post-use-Delete-post-useUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -670,7 +670,7 @@
 		};
 		1F39DA8F2DEAEC63003309BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 822AD7EFB3D17170057A86C0 /* Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig */;
+			baseConfigurationReference = C28C0BA02E72004CA976BD4C /* Pods-Delete-post-use-Delete-post-useUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

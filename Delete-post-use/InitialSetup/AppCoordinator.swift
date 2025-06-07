@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ASKFoundation
 
 final class AppCoordinator {
     private let window: UIWindow
